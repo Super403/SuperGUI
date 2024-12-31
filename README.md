@@ -14,7 +14,7 @@
 
 ## 工具界面
 
-![](C:\Users\Administrator\AppData\Roaming\marktext\images\2024-12-25-10-48-36-image.png)​
+![](.\images\2024-12-25-10-48-36-image.png)​
 
 ## 功能介绍
 
