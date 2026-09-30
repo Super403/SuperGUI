@@ -2,7 +2,6 @@
 # SuperGUI
 
 > 不搬运工具，也不内置任何安全工具，它就是把你磁盘上已经有的工具整理成一个启动器。整个项目可以丢进 U 盘 / 同步盘 / Git 仓库，到哪都能用。
->
 > 把按分类整理好的本地工具目录，变成一个能搜索、能启动、能写笔记的界面。
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078d4)  ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)  ![PySide6](https://img.shields.io/badge/PySide6-6.6%2B-green)  ![License](https://img.shields.io/badge/License-MIT-green)  ![Version](https://img.shields.io/badge/Version-3.0-2f9d5d)
