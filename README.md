@@ -5,7 +5,7 @@
 >
 > 把按分类整理好的本地工具目录，变成一个能搜索、能启动、能写笔记的界面。
 
-![Platform](https://img.shields.io/badge/Platform-Windows-0078d4)![Python](https://img.shields.io/badge/Python-3.10%2B-blue)![PySide6](https://img.shields.io/badge/PySide6-6.6%2B-green)![License](https://img.shields.io/badge/License-MIT-green)![Version](https://img.shields.io/badge/Version-3.0-2f9d5d)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078d4)  ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)  ![PySide6](https://img.shields.io/badge/PySide6-6.6%2B-green)  ![License](https://img.shields.io/badge/License-MIT-green)  ![Version](https://img.shields.io/badge/Version-3.0-2f9d5d)
 
 ---
 
