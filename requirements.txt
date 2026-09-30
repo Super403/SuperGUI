@@ -1,0 +1,5 @@
+# SuperGUI 运行依赖
+# Python >= 3.10（代码使用 zip(strict=True)、`X | None` 类型标注等特性）
+# SQLite >= 3.35（DB 迁移 v2 使用 ALTER TABLE ... DROP COLUMN；Python 3.10+ 自带的版本满足）
+PySide6>=6.6
+PyYAML>=6.0

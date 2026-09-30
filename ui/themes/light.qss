@@ -1,0 +1,167 @@
+/* ══════════ 浅色主题 ══════════ */
+
+QMainWindow, QDialog, QMessageBox, QInputDialog { background: #f4f6f8; }
+QWidget { font-family: "Microsoft YaHei UI", "Segoe UI Variable Text", "Microsoft YaHei"; color: #2b323d; font-size: 13px; }
+QLabel { background: transparent; }
+QToolTip { background: #2b323d; color: #fff; border: none; padding: 5px 9px; border-radius: 6px; }
+
+/* ── 顶栏 ── */
+#TopBar { background: #ffffff; border-bottom: 1px solid #eef0f3; }
+#Brand { font-size: 15px; font-weight: 700; }
+#BrandSub { color: #9aa3ad; font-size: 11px; padding-top: 3px; }
+#WorkspaceBtn {
+    background: #f5f7f9; border: none; border-radius: 8px;
+    padding: 6px 11px; color: #6b7380; font-size: 12px; text-align: left;
+}
+#WorkspaceBtn:hover { color: #2f9d5d; background: #e9f7ef; }
+#WorkspaceBtn[active="true"] { color: #2f9d5d; background: #e9f7ef; font-weight: 600; }
+#SearchBar {
+    background: #f5f7f9; border: 2px solid transparent; border-radius: 19px;
+    padding: 7px 14px; font-size: 13px; selection-background-color: #bde5cd;
+}
+#SearchBar:focus { border-color: #3cb56f; background: #ffffff; }
+#TopIconBtn { background: transparent; border: none; border-radius: 8px; }
+#TopIconBtn:hover { background: #e9f7ef; }
+#TopIconBtn:checked { background: #e9f7ef; }
+
+/* ── 侧边栏 ── */
+#SideBar { background: #ffffff; border-right: 1px solid #eef0f3; }
+#NavTitle { color: #a0a8b4; font-size: 11px; letter-spacing: 1px; padding: 0 12px; }
+#NavButton {
+    background: transparent; border: none; border-radius: 8px;
+    padding: 8px 10px; color: #6b7380; font-size: 13px; text-align: left;
+}
+#NavButton:hover { background: #e9f7ef; color: #2f9d5d; }
+#NavButton:checked { background: #e9f7ef; color: #2f9d5d; font-weight: 700; }
+#TagBtn {
+    background: #f5f7f9; border: 1px solid transparent; border-radius: 11px;
+    padding: 3px 10px; font-size: 11px; color: #6b7380;
+}
+#TagBtn:hover { background: #e9f7ef; color: #2f9d5d; }
+#TagBtn:checked { background: #e9f7ef; color: #2f9d5d; border-color: #3cb56f; font-weight: 600; }
+#UsageCard { background: #f5f7f9; border-radius: 10px; }
+#UsageNum { font-weight: 700; color: #2f9d5d; }
+#UsageBar { background: #e8ebee; border: none; border-radius: 2px; }
+#UsageBar::chunk { background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #46c77c, stop:1 #2f9d5d); border-radius: 2px; }
+#SideScroll { background: #ffffff; border: none; }
+#SideScroll > QWidget { background: transparent; }
+#SideContent { background: transparent; }
+
+/* ── 内容区 ── */
+#Content { background: #f4f6f8; }
+#ContentTitle { font-size: 18px; font-weight: 700; color: #2b323d; padding-left: 9px; border-left: 4px solid #3cb56f; }
+#ContentSub { color: #a0a8b4; font-size: 12px; padding-left: 8px; }
+#CardScroll, #CardContainer { background: transparent; border: none; }
+#CatHead { color: #6b7380; font-size: 13px; font-weight: 700; padding-bottom: 2px; border-bottom: 1px solid #e8ebee; }
+#EmptyTip { color: #a0a8b4; font-size: 13px; padding: 60px; }
+
+/* 统计卡片 */
+#StatCard { background: #ffffff; border: 1px solid #eef0f3; border-radius: 10px; }
+#StatKey { color: #6b7380; font-size: 12px; }
+#StatValue { font-size: 24px; font-weight: 800; }
+
+/* ── 条目卡片 ── */
+#EntryCard { background: #ffffff; border: 2px solid #e8ebee; border-radius: 10px; }
+#EntryCard:hover { border-color: #3cb56f; }
+#EntryCard[selected="true"] { border-color: #3cb56f; background: #f2fbf6; }
+#CardName { font-weight: 700; font-size: 13px; }
+#CardDesc { color: #a0a8b4; font-size: 11px; }
+#CardStar { color: #f7b73c; font-size: 13px; }
+
+/* ── 详情面板 ── */
+#DetailPanel { background: #ffffff; border-left: 1px solid #eef0f3; }
+#DetailEmpty { color: #a0a8b4; font-size: 13px; }
+#DetailTitle { color: #a0a8b4; font-size: 12px; font-weight: 700; letter-spacing: 1px; }
+#DetailName { font-size: 16px; font-weight: 700; }
+#DetailPath { color: #a0a8b4; font-size: 11px; }
+#DetailTags { color: #2f9d5d; font-size: 12px; }
+#DetailSection { color: #a0a8b4; font-size: 11px; letter-spacing: 1px; }
+
+#PrimaryBtn {
+    background: #3cb56f; color: #ffffff; border: none; border-radius: 8px;
+    padding: 8px 16px; font-weight: 700; font-size: 13px;
+}
+#PrimaryBtn:hover { background: #2f9d5d; }
+#PrimaryBtn:pressed { background: #288a50; }
+#GhostBtn {
+    background: #ffffff; border: 1px solid #e8ebee; border-radius: 8px;
+    padding: 8px 12px; font-weight: 600;
+}
+#GhostBtn:hover { border-color: #3cb56f; color: #2f9d5d; }
+#MiniBtn {
+    background: transparent; border: 1px solid #e8ebee; border-radius: 6px;
+    padding: 3px 10px; font-size: 11px; color: #6b7380;
+}
+#MiniBtn:hover { border-color: #3cb56f; color: #2f9d5d; }
+
+#CmdBox {
+    background: #f7f9fa; border: 1px solid #eef0f3; border-radius: 8px;
+    color: #2f9d5d; font-family: "Cascadia Code", Consolas, monospace;
+    font-size: 12px; padding: 9px 11px;
+}
+#NoteView, #NoteEdit {
+    background: #f7f9fa; border: 1px solid #eef0f3; border-radius: 8px;
+    font-size: 12px; padding: 8px; selection-background-color: #bde5cd;
+}
+#NoteEdit { font-family: "Cascadia Code", Consolas, monospace; }
+#StatMini { background: #f7f9fa; border: 1px solid #eef0f3; border-radius: 8px; }
+#StatMiniValue { font-size: 15px; font-weight: 800; color: #2f9d5d; }
+#StatMiniKey { font-size: 11px; color: #a0a8b4; }
+
+/* ── 状态栏 ── */
+#StatusBar { background: #ffffff; border-top: 1px solid #eef0f3; }
+#StatusOk { color: #2f9d5d; font-weight: 600; font-size: 11px; }
+#StatusText { color: #a0a8b4; font-size: 11px; }
+
+/* ── 菜单 ── */
+QMenu {
+    background: #ffffff; border: 1px solid #e8ebee; border-radius: 10px; padding: 5px;
+}
+QMenu::item { padding: 7px 22px 7px 12px; border-radius: 7px; color: #2b323d; }
+QMenu::item:selected { background: #e9f7ef; color: #2f9d5d; }
+QMenu::separator { height: 1px; background: #eef0f3; margin: 5px 8px; }
+
+/* ── 滚动条 ── */
+QScrollBar:vertical { background: transparent; width: 8px; margin: 2px; }
+QScrollBar::handle:vertical { background: #d3d8df; border-radius: 4px; min-height: 30px; }
+QScrollBar::handle:vertical:hover { background: #b8bfc9; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }
+QScrollBar:horizontal { background: transparent; height: 8px; margin: 2px; }
+QScrollBar::handle:horizontal { background: #d3d8df; border-radius: 4px; min-width: 30px; }
+QScrollBar::handle:horizontal:hover { background: #b8bfc9; }
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal { width: 0; }
+QScrollBar::add-page, QScrollBar::sub-page { background: transparent; }
+
+/* ── 对话框控件 ── */
+QLineEdit, QComboBox {
+    background: #f5f7f9; border: 1px solid #e8ebee; border-radius: 7px; padding: 6px 10px;
+}
+QLineEdit:focus, QComboBox:focus { border-color: #3cb56f; background: #ffffff; }
+QComboBox::drop-down { border: none; width: 24px; }
+QDialogButtonBox QPushButton {
+    background: #3cb56f; color: #fff; border: none; border-radius: 7px; padding: 7px 18px; min-width: 64px;
+}
+QDialogButtonBox QPushButton:hover { background: #2f9d5d; }
+
+/* ── 设置对话框 ── */
+#SettingsSection { color: #a0a8b4; font-size: 11px; font-weight: 700; letter-spacing: 1px; }
+#SettingsCard { background: #ffffff; border: 1px solid #eef0f3; border-radius: 10px; }
+#SettingsKey { color: #6b7380; }
+#SettingsValue { color: #a0a8b4; font-size: 12px; }
+#SettingsHint { color: #a0a8b4; font-size: 11px; }
+#SettingsHint[invalid="true"] { color: #f0524f; }
+QLineEdit[invalid="true"] { border-color: #f0524f; }
+
+/* ── macOS 风格标题栏 ── */
+#TitleBar { background: #ffffff; border-bottom: 1px solid #eef0f3; }
+#TitleText { color: #6b7380; font-size: 12px; font-weight: 600; }
+#MacBtn { border: none; border-radius: 7px; color: transparent; font-size: 9px; font-weight: 700; padding: 0; }
+#MacBtn[kind="close"] { background: #ff5f57; }
+#MacBtn[kind="min"] { background: #febc2e; }
+#MacBtn[kind="max"] { background: #28c840; }
+#MacBtn:hover { color: rgba(0, 0, 0, 110); }
+
+/* ── Windows 风格标题栏按钮（— □ ✕ 右侧，悬停变灰，关闭悬停变红） ── */
+#WinBtn { border: none; background: transparent; color: #6b7380; font-size: 13px; padding: 0 0 2px 0; }
+#WinBtn:hover { background: #eef0f3; }
+#WinBtn[kind="close"]:hover { background: #e81123; color: #ffffff; }
