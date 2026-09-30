@@ -1,3 +1,0 @@
-ttkbootstrap>=1.10.1
-pillow>=10.4.0
-configparser>=5.3.0 
